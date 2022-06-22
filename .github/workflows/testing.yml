@@ -9,12 +9,12 @@ on:
     branches:
       -main
 
-
+      
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    step:
+    steps:
     - uses: actions/cheeckout@v2
     - name: Set up Python 3.8
       uses: action/setup-python@v2
